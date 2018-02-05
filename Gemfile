@@ -29,10 +29,14 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
-gem 'bootstrap-sass'
-gem 'simple_form'
 
+
+# le wagon custom setup
+gem 'autoprefixer-rails'
+gem 'bootstrap-sass' # Bootstrap v3
+gem 'font-awesome-sass'
 gem 'webpacker', '~> 3.0'
+gem 'simple_form'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
