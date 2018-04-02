@@ -7,12 +7,17 @@
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-
+  background-color: #9a938e;
 }
 
 .category {
-  border: 3px groove red;
+  border: 1px solid #9a938e;
+  background-color: #e7e2dd;
   padding: 15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 
   & .category-title {
     display: flex !important;
@@ -25,6 +30,7 @@
   }
 
 }
+
 
 
 .category-left-block {
