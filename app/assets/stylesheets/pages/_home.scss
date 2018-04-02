@@ -18,6 +18,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  min-height: 300px;
 
   & .category-title {
     display: flex !important;
@@ -34,20 +35,26 @@
     justify-content: space-around;
   }
 
+  i {
+    padding: 10px;
+    color: #2a2927;
+  }
+
 }
 
 
 
-.category-left-block {
+.center-element{
   text-align: center;
 }
 
-.category-middle-block {
-  flex: 0 0 50%;
+.category-left-block {
 }
 
-.categpry-right-block {
-  flex: 0 0 70%;
+
+
+.category-right-block {
+
 }
 
 .profile-picture {

@@ -31,7 +31,9 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
-
+# google Geocode
+gem 'geocoder'
+gem 'gmaps4rails'
 
 # le wagon custom setup
 gem 'autoprefixer-rails'
